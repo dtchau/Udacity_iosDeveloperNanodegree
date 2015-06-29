@@ -14,7 +14,6 @@
 		69A8FED21B40795C00F72796 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A8FED01B40795C00F72796 /* LaunchScreen.xib */; };
 		69A8FEDE1B40795C00F72796 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8FEDD1B40795C00F72796 /* PitchPerfectTests.swift */; };
 		69A8FEE81B41044100F72796 /* SoundConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8FEE71B41044100F72796 /* SoundConverterViewController.swift */; };
-		69A8FEEC1B410E1100F72796 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A8FEEB1B410E1100F72796 /* movie_quote.mp3 */; };
 		69A8FEEE1B412DDB00F72796 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8FEED1B412DDB00F72796 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		69A8FEDC1B40795C00F72796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A8FEDD1B40795C00F72796 /* PitchPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectTests.swift; sourceTree = "<group>"; };
 		69A8FEE71B41044100F72796 /* SoundConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundConverterViewController.swift; sourceTree = "<group>"; };
-		69A8FEEB1B410E1100F72796 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 		69A8FEED1B412DDB00F72796 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 		69A8FEC51B40795C00F72796 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				69A8FEEB1B410E1100F72796 /* movie_quote.mp3 */,
 				69A8FEC61B40795C00F72796 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -203,7 +200,6 @@
 			files = (
 				69A8FECD1B40795C00F72796 /* Main.storyboard in Resources */,
 				69A8FED21B40795C00F72796 /* LaunchScreen.xib in Resources */,
-				69A8FEEC1B410E1100F72796 /* movie_quote.mp3 in Resources */,
 				69A8FECF1B40795C00F72796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +417,7 @@
 				69A8FEE31B40795C00F72796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A8FEE41B40795C00F72796 /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +426,7 @@
 				69A8FEE61B40795C00F72796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
