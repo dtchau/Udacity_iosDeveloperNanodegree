@@ -11,8 +11,8 @@ import AVFoundation
 
 class SoundConverterViewController: UIViewController {
     
-    let LABEL_HOW_TO_LISTEN_TO_EFFECT = "HOLD any button to listen to effect."
-    let LABEL_HOW_TO_STOP_EFFECT = "RELEASE button to stop."
+    let labelHowToStart = "HOLD any button to listen to effect."
+    let labelHowToStop = "RELEASE button to stop."
     
     @IBOutlet weak var audioConverterLabel: UILabel!
     var audioEngine: AVAudioEngine!
@@ -39,15 +39,7 @@ class SoundConverterViewController: UIViewController {
         audioPlayerNode.stop()
         audioEngine.stop()
         audioEngine.reset()
-        audioConverterLabel.text = LABEL_HOW_TO_LISTEN_TO_EFFECT
-    }
-    
-    func playAudio(audioPath: String, ofType: String, rate: Float, pitch: Float) {
-        if let path = NSBundle.mainBundle().pathForResource(audioPath, ofType: ofType) {
-            playAudio(NSURL(fileURLWithPath: path), rate: rate, pitch: pitch)
-        } else {
-            println("File '\(audioPath).\(ofType)' not found!")
-        }
+        audioConverterLabel.text = labelHowToStart
     }
     
     func playAudio(audioUrl: NSURL!, rate: Float, pitch: Float) {
@@ -67,6 +59,6 @@ class SoundConverterViewController: UIViewController {
         
         audioEngine.startAndReturnError(nil)
         audioPlayerNode.play()
-        audioConverterLabel.text = LABEL_HOW_TO_STOP_EFFECT
+        audioConverterLabel.text = labelHowToStop
     }
 }
