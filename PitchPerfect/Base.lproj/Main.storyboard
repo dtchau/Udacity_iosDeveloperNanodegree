@@ -111,7 +111,7 @@
             </objects>
             <point key="canvasLocation" x="67.5" y="353.25"/>
         </scene>
-        <!--Sound Converter View Controller-->
+        <!--Sound Effects-->
         <scene sceneID="i22-OW-7iF">
             <objects>
                 <viewController id="ZhA-ID-z9E" customClass="SoundConverterViewController" customModule="PitchPerfect" sceneMemberID="viewController">
@@ -333,6 +333,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Sound Effects" id="c4j-77-jcu"/>
                     <connections>
                         <outlet property="audioConverterLabel" destination="RV8-un-zBM" id="LIi-Xg-FxV"/>
                         <outlet property="reverbEffectLabel" destination="sBc-Wh-YMm" id="aES-bR-TAt"/>
